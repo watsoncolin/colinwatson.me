@@ -9,3 +9,4 @@
 
 .store-pending{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:9px 14px;border:1px dashed #505548;border-radius:7px;font-size:14px;line-height:1.4;color:var(--muted)}.store-pending small{font-size:12px;color:var(--lime)}
 .beer{background:linear-gradient(180deg,rgba(10,25,23,.45),transparent 35%,rgba(10,25,23,.65)),url('assets/beer-debt-background.png') center 64%/cover;color:#f6f0e4}.beer .pill{color:#f5ba42;background:#14201dcc}.beer .app-art img{width:150px;height:150px;transform:none;box-shadow:0 12px 30px #0006}.beer .visual-name{color:#f6f0e4;text-shadow:0 2px 12px #0008}
+.project.upcoming{align-self:start}
