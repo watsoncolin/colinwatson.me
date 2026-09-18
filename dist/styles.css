@@ -13,9 +13,19 @@
 .tile-icon{position:absolute;inset:70px 0 90px;display:flex;align-items:center;justify-content:center;pointer-events:none}.tile-icon img{width:140px;height:140px;border-radius:29px;box-shadow:0 14px 30px #0003}.paw-icon{right:45%;z-index:1}.paw-icon img{width:125px;height:125px}@media(max-width:800px) and (min-width:561px){.tile-icon img{width:115px;height:115px}.paw-icon img{width:95px;height:95px}}
 .project .visual:not(.paw) .app-art img,.project .tile-icon img{transform:rotate(-8deg);transition:transform .3s}
 .project:hover .visual:not(.paw) .app-art img,.project:focus-within .visual:not(.paw) .app-art img,.project:hover .tile-icon img,.project:focus-within .tile-icon img{transform:rotate(0deg) translateY(-3px)}
-.visual.pour{background:linear-gradient(180deg,#100b0840,transparent 40%,#100b0870),url('assets/pour-bar.jpg') center/cover}
-.pour .app-art{right:38%}
+.visual.pour{background:linear-gradient(90deg,#211711 8%,#211711ed 28%,#21171160 62%,#21171100 85%),url('assets/pour-bar.jpg') center/cover}
+.pour .app-art,.nexus .app-art,.strum .tile-icon{right:45%;z-index:1}
+.pour .app-art img,.nexus .app-art img,.strum .tile-icon img{width:125px;height:125px;border-radius:27px}
 .pour .app-art img{box-shadow:0 14px 32px #0008}
 .pour .visual-name{text-shadow:0 2px 12px #0009;z-index:1}
 .pour .pill{background:#17100bcc}
+.visual.nexus{background:linear-gradient(90deg,#242338 15%,#242338ec 35%,#24233800 85%),radial-gradient(ellipse at 95% 80%,#ef975c70,transparent 45%),radial-gradient(ellipse at 78% 30%,#6165ac,transparent 65%),#171625}
+.nexus:before{content:"";position:absolute;width:300px;height:300px;right:-90px;top:30px;border-radius:50%;border:1px solid #c7caff65;box-shadow:0 0 0 28px #b5b8ff0a,0 0 0 29px #c7caff25,0 0 0 68px #b5b8ff06,0 0 0 69px #c7caff15;transform:rotate(-30deg) scaleX(.7);pointer-events:none}
+.nexus:after{content:"";position:absolute;inset:0;background:radial-gradient(circle at 72% 22%,#fff 0 1px,transparent 2px),radial-gradient(circle at 87% 48%,#e7c7ff 0 1.5px,transparent 3px),radial-gradient(circle at 65% 67%,#fff9 0 1px,transparent 2px),radial-gradient(circle at 94% 17%,#fff9 0 1px,transparent 2px),radial-gradient(circle at 82% 78%,#fff7 0 1px,transparent 2px);pointer-events:none}
+.visual.strum{background:linear-gradient(90deg,#e6aa77 10%,#e6aa77e8 38%,#e6aa7700 85%),radial-gradient(ellipse at 95% 95%,#794125,transparent 70%),#ce8550}
+.strum:before{content:"";position:absolute;width:230px;height:290px;border-radius:46%;right:-36px;top:48px;transform:rotate(22deg);background:radial-gradient(circle at 50% 42%,#38231b 0 44px,#b67c4f 45px 49px,#e5b17f 50px 52px,#a76b40 53px 55px,transparent 56px),linear-gradient(100deg,#e4ac72,#bb794b);box-shadow:inset 0 0 40px #56331e45,0 16px 35px #5f351e25;pointer-events:none}
+.strum:after{content:"";position:absolute;right:61px;top:-55px;width:30px;height:430px;transform:rotate(22deg);background:repeating-linear-gradient(90deg,transparent 0 4px,#f9e0bda6 4px 5px);pointer-events:none}
+.nexus .visual-name,.strum .visual-name{position:relative;z-index:1}
+.strum .pill{background:#e6aa77cc}
+@media(max-width:800px) and (min-width:561px){.pour .app-art img,.nexus .app-art img,.strum .tile-icon img{width:95px;height:95px}.strum:before{right:-95px}.strum:after{right:2px}}
 @media(prefers-reduced-motion:reduce){.project .visual,.project .visual:not(.paw) .app-art img,.project .tile-icon img{transform:none!important}}
