@@ -11,3 +11,11 @@
 .beer{background:linear-gradient(180deg,rgba(10,25,23,.45),transparent 35%,rgba(10,25,23,.65)),url('assets/beer-debt-background.png') center 64%/cover;color:#f6f0e4}.beer .pill{color:#f5ba42;background:#14201dcc}.beer .app-art img{width:150px;height:150px;transform:none;box-shadow:0 12px 30px #0006}.beer .visual-name{color:#f6f0e4;text-shadow:0 2px 12px #0008}
 .project.upcoming{align-self:start}
 .tile-icon{position:absolute;inset:70px 0 90px;display:flex;align-items:center;justify-content:center;pointer-events:none}.tile-icon img{width:140px;height:140px;border-radius:29px;box-shadow:0 14px 30px #0003}.paw-icon{right:45%;z-index:1}.paw-icon img{width:125px;height:125px}@media(max-width:800px) and (min-width:561px){.tile-icon img{width:115px;height:115px}.paw-icon img{width:95px;height:95px}}
+.project .visual:not(.paw) .app-art img,.project .tile-icon img{transform:rotate(-8deg);transition:transform .3s}
+.project:hover .visual:not(.paw) .app-art img,.project:focus-within .visual:not(.paw) .app-art img,.project:hover .tile-icon img,.project:focus-within .tile-icon img{transform:rotate(0deg) translateY(-3px)}
+.visual.pour{background:linear-gradient(180deg,#100b0840,transparent 40%,#100b0870),url('assets/pour-bar.jpg') center/cover}
+.pour .app-art{right:38%}
+.pour .app-art img{box-shadow:0 14px 32px #0008}
+.pour .visual-name{text-shadow:0 2px 12px #0009;z-index:1}
+.pour .pill{background:#17100bcc}
+@media(prefers-reduced-motion:reduce){.project .visual,.project .visual:not(.paw) .app-art img,.project .tile-icon img{transform:none!important}}
