@@ -27,9 +27,6 @@
 .strum .pill{background:#e6aa77cc}
 @media(max-width:800px) and (min-width:561px){.pour .app-art img,.nexus .app-art img,.strum .tile-icon img{width:95px;height:95px}}
 @media(prefers-reduced-motion:reduce){.project .visual,.project .visual:not(.paw) .app-art img,.project .tile-icon img{transform:none!important}}
-.visual.primordial{background:linear-gradient(90deg,#05171e 8%,#05171eeb 30%,#05171e00 65%),url('assets/primordial-bg.jpg') center/cover;color:#d9f6ee}
-.primordial .tile-icon{right:45%;z-index:1}
-.primordial .tile-icon img{width:125px;height:125px;border-radius:27px;box-shadow:0 14px 32px #0008}
+.visual.primordial{background:linear-gradient(90deg,#05171ecc 5%,#05171e66 30%,#05171e00 55%),url('assets/primordial-tile.jpg') 70% center/cover;color:#d9f6ee}
 .primordial .visual-name{position:relative;z-index:1;text-shadow:0 2px 12px #0009}
 .primordial .pill{background:#0c2c31cc;color:#9ff0d6}
-@media(max-width:800px) and (min-width:561px){.primordial .tile-icon img{width:95px;height:95px}}
