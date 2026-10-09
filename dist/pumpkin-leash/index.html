@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Pumpkin Leash — a music video starring Archie · Colin Watson</title><meta name="description" content="Pumpkin Leash: a Halloween music video starring my dog Archie. Song, storyboard, animation and edit, made for under five dollars of AI generation."><meta name="theme-color" content="#111210"><meta property="og:title" content="Pumpkin Leash — starring Archie"><meta property="og:description" content="A Halloween night in NYC, starring my dog Archie."><meta property="og:image" content="https://colinwatson.me/pumpkin-leash/poster-16x9.jpg"><meta property="og:type" content="video.other"><link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='15' fill='%23d5fa55'/%3E%3Ctext x='9' y='44' font-family='Arial' font-size='34' font-weight='700' fill='%23111210'%3Ecw%3C/text%3E%3C/svg%3E"><link rel="stylesheet" href="../styles.css">
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Pumpkin Leash — a music video starring Archie · Colin Watson</title><meta name="description" content="Pumpkin Leash: a Halloween music video starring my dog Archie. Directed by Colin Watson and made with Claude for under five dollars of AI generation."><meta name="theme-color" content="#111210"><meta property="og:title" content="Pumpkin Leash — starring Archie"><meta property="og:description" content="A Halloween night in NYC, starring my dog Archie."><meta property="og:image" content="https://colinwatson.me/pumpkin-leash/poster-16x9.jpg"><meta property="og:type" content="video.other"><link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='15' fill='%23d5fa55'/%3E%3Ctext x='9' y='44' font-family='Arial' font-size='34' font-weight='700' fill='%23111210'%3Ecw%3C/text%3E%3C/svg%3E"><link rel="stylesheet" href="../styles.css">
 <style>
   :root{--pumpkin:#ff8a3d}
   .film-hero{padding:64px 0 36px}
@@ -31,12 +31,17 @@
   .pair{display:grid;grid-template-columns:1fr 1fr;gap:12px}
   .pair figcaption{font-size:13px;color:var(--muted);margin-top:8px}
   .tools{font-family:'Space Grotesk',sans-serif;font-size:13px;color:var(--lime);margin-top:12px}
+  .credits{border-top:1px solid var(--line);margin-top:80px;padding-top:26px}
+  .credits h2{margin-bottom:22px}
+  .credits dl{margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:22px 40px}
+  .credits dt{font-family:'Space Grotesk',sans-serif;font-size:12px;letter-spacing:1.3px;text-transform:uppercase;color:var(--muted)}
+  .credits dd{margin:6px 0 0;font-family:'Space Grotesk',sans-serif;font-size:20px;letter-spacing:-.4px}
   .back{padding:70px 0 72px}
   @media(max-width:800px){.story,.step{grid-template-columns:minmax(0,1fr)}.film-hero{padding:44px 0 28px}}
 </style></head>
 <body><div class="shell"><header><a class="wordmark" href="/" aria-label="Colin Watson home">cw<span>↗</span></a><nav aria-label="Main navigation"><a href="/#work">Selected work</a><a href="https://www.linkedin.com/in/colin-watson-ny/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a></nav></header>
 <main id="top">
-<section class="film-hero" aria-labelledby="film-title"><div class="eyebrow">MUSIC VIDEO <span>OCTOBER 2026 · 2:32</span></div><h1 id="film-title">Pumpkin <em>Leash.</em></h1><p class="lede">A Halloween night in New York, starring my dog Archie. It started with a song made in Suno. From there I built the storyboard, the animation and the edit.</p></section>
+<section class="film-hero" aria-labelledby="film-title"><div class="eyebrow">MUSIC VIDEO <span>OCTOBER 2026 · 2:32</span></div><h1 id="film-title">Pumpkin <em>Leash.</em></h1><p class="lede">A Halloween night in New York, starring my dog Archie. I directed it, and Claude made it. Working in Claude Code, Claude storyboarded the song, designed Archie's character, generated every frame and clip, and wrote the edit as code.</p></section>
 
 <section class="player" aria-label="Video">
   <video id="wide" controls playsinline preload="metadata" poster="poster-16x9.jpg" width="1920" height="1080"><source src="pumpkin-leash-16x9.mp4" type="video/mp4"></video>
@@ -51,7 +56,7 @@
   <h2 id="story-title">One night, told from the other end of the leash.</h2>
   <div>
     <p>The lyrics follow a single Halloween night. Archie gets into his bat wings and cape at the door, the two of us haunt the block, and every chorus breaks into a run through the city. The bridge slows down at a red light, and the night ends with him asleep on the candy bag.</p>
-    <p>Every shot in the video comes from a line of the song. The cut ends on real photos of Archie, which is the part that matters most to me.</p>
+    <p>Every shot in the video comes from a line of the song. The cut ends on real photos of Archie.</p>
   </div>
 </section>
 
@@ -59,19 +64,29 @@
 <ol class="steps">
   <li class="step"><div><span class="num">SONG</span><h3>The song</h3><p>The track is playful, spooky synth-pop at 112 BPM, made with Suno. A speech-recognition pass gave every word a timestamp, so the on-screen lyrics land exactly on the vocal.</p><div class="tools">Suno · Whisper</div></div>
     <figure><img src="step-keyframe.jpg" alt="Archie waiting at a red crosswalk light at night" width="1200" height="675" loading="lazy"></figure></li>
-  <li class="step"><div><span class="num">CASTING</span><h3>Getting Archie right</h3><p>The first stylized design was a generic cartoon puppy with perky ears and big eyes. It didn't look like him. The second round was built only from his recent photos, with the things that make him Archie written in: lanky legs, a wiry white coat, a ginger head, long shaggy ears and a messy fringe.</p><div class="tools">FLUX.2 klein · reference images</div></div>
+  <li class="step"><div><span class="num">CASTING</span><h3>Getting Archie right</h3><p>The first stylized design was a generic cartoon puppy with perky ears and big eyes. It didn't feel like Archie, so the second round was built only from his recent photos, with the things that make him Archie written in: lanky legs, a wiry white coat, a ginger head, long shaggy ears and a messy fringe.</p><div class="tools">FLUX.2 klein · reference images</div></div>
     <div class="pair"><figure><img src="step-real.jpg" alt="The real Archie under cherry blossoms" width="600" height="800" loading="lazy"><figcaption>The real Archie</figcaption></figure><figure><img src="step-design.jpg" alt="Stylized Archie in a cape and bat wings beside a jack-o-lantern" width="600" height="800" loading="lazy"><figcaption>The character design</figcaption></figure></div></li>
-  <li class="step"><div><span class="num">STORYBOARD</span><h3>59 shots, one per line</h3><p>Each lyric became a shot with its own keyframe: the bowl of bones, the moon over the water towers, the skeletons on the fire escape, the red light. I checked every frame against his photos and redid the ones that drifted.</p><div class="tools">Runware · about half a cent a frame</div></div>
+  <li class="step"><div><span class="num">STORYBOARD</span><h3>59 shots, one per line</h3><p>Each lyric became a shot with its own keyframe: the bowl of bones, the moon over the water towers, the skeletons on the fire escape, the red light. Claude checked every frame against his photos and redid the ones that drifted.</p><div class="tools">Runware · about half a cent a frame</div></div>
     <figure><img src="step-board.jpg" alt="Archie on a stoop looking up at the full moon behind rooftop water towers" width="1200" height="675" loading="lazy"></figure></li>
   <li class="step"><div><span class="num">MOTION</span><h3>Animating the big moments</h3><p>Twenty keyframes became six-second animated clips: the runs, the leaf jump, the bark into the lens, the block party. The rest are stills with camera moves. One clip turned Archie into a different dog halfway through, so it was re-rolled.</p><div class="tools">MiniMax Hailuo 2.3 Fast · image to video</div></div>
     <figure><img src="step-clip.jpg" alt="Archie leaping through a pile of autumn leaves" width="1200" height="675" loading="lazy"></figure></li>
-  <li class="step"><div><span class="num">EDIT</span><h3>Cut to the kick drum</h3><p>The edit is code. Cuts and a subtle pulse follow every kick drum hit pulled from the track, the lyrics pop in word by word, and each "woof woof" gets a stamp. The same timeline renders both the widescreen and vertical cuts, with the vertical crop following Archie shot by shot.</p><div class="tools">Remotion · React + TypeScript</div></div>
+  <li class="step"><div><span class="num">EDIT</span><h3>Cut to the kick drum</h3><p>The edit is code that Claude wrote. Cuts and a subtle pulse follow every kick drum hit pulled from the track, the lyrics pop in word by word, and each "woof woof" gets a stamp. The same timeline renders both the widescreen and vertical cuts, with the vertical crop following Archie shot by shot.</p><div class="tools">Remotion · React + TypeScript</div></div>
     <figure><img src="poster-9x16.jpg" alt="Vertical frame of Archie in his cape on a city street" width="720" height="1280" loading="lazy" style="max-width:280px;margin:0 auto"></figure></li>
 </ol>
 
-<section class="back"><span class="eyebrow" style="color:var(--muted)">MORE THINGS I’VE BUILT</span><div class="contact" style="padding:0"><a href="/#work">Back to selected work<span>↗</span></a></div></section>
+<section class="credits" aria-labelledby="credits-title"><h2 id="credits-title">Credits</h2><dl>
+<div><dt>Starring</dt><dd>Archie</dd></div>
+<div><dt>Directed by</dt><dd>Colin Watson</dd></div>
+<div><dt>Storyboard, character design, animation and edit</dt><dd>Claude, in Claude Code</dd></div>
+<div><dt>Song</dt><dd>Suno</dd></div>
+<div><dt>Keyframes</dt><dd>FLUX.2 klein via Runware</dd></div>
+<div><dt>Animation</dt><dd>MiniMax Hailuo 2.3 Fast</dd></div>
+<div><dt>Edit</dt><dd>Remotion</dd></div>
+</dl></section>
+
+<section class="back"><span class="eyebrow" style="color:var(--muted)">MORE PROJECTS</span><div class="contact" style="padding:0"><a href="/#work">Back to selected work<span>↗</span></a></div></section>
 </main>
-<footer><span>© 2026 Colin Watson</span><span>Starring Archie.</span><a href="#top">Back to top ↑</a></footer></div>
+<footer><span>© 2026 Colin Watson</span><span>Directed by Colin. Made with Claude. Starring Archie.</span><a href="#top">Back to top ↑</a></footer></div>
 <script>
   const vids = { wide: document.getElementById('wide'), tall: document.getElementById('tall') };
   document.querySelectorAll('.toggle button').forEach(b => b.addEventListener('click', () => {
